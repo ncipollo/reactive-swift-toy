@@ -16,11 +16,11 @@ final class HackerNewsApiRepository: HackerNewsRepository {
   }
 
   func topStories() -> AnyPublisher<RepoResults<Array<Int64>>, Never> {
-    return storyList(path: "/v0/topstories")
+    return storyList(path: "/v0/topstories.json")
   }
 
   func newStories() -> AnyPublisher<RepoResults<Array<Int64>>, Never> {
-    return storyList(path: "/v0/newStories")
+    return storyList(path: "/v0/newstories.json")
   }
 
   private func storyList(path: String) -> AnyPublisher<RepoResults<Array<Int64>>, Never> {

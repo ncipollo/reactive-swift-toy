@@ -13,9 +13,12 @@ final class HackerNewsSession : APISession {
 
   func get<T>(path: String) -> AnyPublisher<T, Error> where T : Decodable {
     let url = createUrl(path: path)
-    let request = URLRequest(url: url)
+    var request = URLRequest(url: url)
+
+    request.addValue("application/json", forHTTPHeaderField: "Accept")
 
     return URLSession.shared.dataTaskPublisher(for: request)
+      .print("Debug")
       .map(\.data)
       .decode(type: T.self, decoder: JSONDecoder())
       .eraseToAnyPublisher()

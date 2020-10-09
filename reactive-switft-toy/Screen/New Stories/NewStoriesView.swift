@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct NewStoriesView: View {
+  let viewModel: StoriesViewModel = StoriesViewModel()
+  
     var body: some View {
         Text("New Stories!")
     }
