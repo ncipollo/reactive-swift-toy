@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct reactive_switft_toyApp: App {
+struct ToyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
