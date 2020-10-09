@@ -44,15 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D07FFF7B2530E999004A50AD /* reactive-switft-toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactive-switft-toy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07FFF7B2530E999004A50AD /* reactive-swift-toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactive-swift-toy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07FFF7E2530E999004A50AD /* ToyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyApp.swift; sourceTree = "<group>"; };
 		D07FFF822530E99B004A50AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07FFF852530E99B004A50AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D07FFF872530E99B004A50AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D07FFF8C2530E99C004A50AD /* reactive-switft-toyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactive-switft-toyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07FFF8C2530E99C004A50AD /* reactive-swift-toyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactive-swift-toyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07FFF902530E99C004A50AD /* reactive_switft_toyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactive_switft_toyTests.swift; sourceTree = "<group>"; };
 		D07FFF922530E99C004A50AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D07FFF972530E99C004A50AD /* reactive-switft-toyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactive-switft-toyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07FFF972530E99C004A50AD /* reactive-swift-toyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactive-swift-toyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07FFF9B2530E99C004A50AD /* reactive_switft_toyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactive_switft_toyUITests.swift; sourceTree = "<group>"; };
 		D07FFF9D2530E99C004A50AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0AC492D2530F073003BFE66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		D07FFF722530E999004A50AD = {
 			isa = PBXGroup;
 			children = (
-				D07FFF7D2530E999004A50AD /* reactive-switft-toy */,
+				D07FFF7D2530E999004A50AD /* reactive-swift-toy */,
 				D07FFF8F2530E99C004A50AD /* reactive-switft-toyTests */,
 				D07FFF9A2530E99C004A50AD /* reactive-switft-toyUITests */,
 				D07FFF7C2530E999004A50AD /* Products */,
@@ -105,14 +105,14 @@
 		D07FFF7C2530E999004A50AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D07FFF7B2530E999004A50AD /* reactive-switft-toy.app */,
-				D07FFF8C2530E99C004A50AD /* reactive-switft-toyTests.xctest */,
-				D07FFF972530E99C004A50AD /* reactive-switft-toyUITests.xctest */,
+				D07FFF7B2530E999004A50AD /* reactive-swift-toy.app */,
+				D07FFF8C2530E99C004A50AD /* reactive-swift-toyTests.xctest */,
+				D07FFF972530E99C004A50AD /* reactive-swift-toyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D07FFF7D2530E999004A50AD /* reactive-switft-toy */ = {
+		D07FFF7D2530E999004A50AD /* reactive-swift-toy */ = {
 			isa = PBXGroup;
 			children = (
 				D0AC496B25310283003BFE66 /* Repository */,
@@ -124,7 +124,7 @@
 				D07FFF872530E99B004A50AD /* Info.plist */,
 				D07FFF842530E99B004A50AD /* Preview Content */,
 			);
-			path = "reactive-switft-toy";
+			path = "reactive-swift-toy";
 			sourceTree = "<group>";
 		};
 		D07FFF842530E99B004A50AD /* Preview Content */ = {
@@ -218,9 +218,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D07FFF7A2530E999004A50AD /* reactive-switft-toy */ = {
+		D07FFF7A2530E999004A50AD /* reactive-swift-toy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D07FFFA02530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-switft-toy" */;
+			buildConfigurationList = D07FFFA02530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-swift-toy" */;
 			buildPhases = (
 				D07FFF772530E999004A50AD /* Sources */,
 				D07FFF782530E999004A50AD /* Frameworks */,
@@ -230,14 +230,14 @@
 			);
 			dependencies = (
 			);
-			name = "reactive-switft-toy";
+			name = "reactive-swift-toy";
 			productName = "reactive-switft-toy";
-			productReference = D07FFF7B2530E999004A50AD /* reactive-switft-toy.app */;
+			productReference = D07FFF7B2530E999004A50AD /* reactive-swift-toy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D07FFF8B2530E99C004A50AD /* reactive-switft-toyTests */ = {
+		D07FFF8B2530E99C004A50AD /* reactive-swift-toyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D07FFFA32530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-switft-toyTests" */;
+			buildConfigurationList = D07FFFA32530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-swift-toyTests" */;
 			buildPhases = (
 				D07FFF882530E99C004A50AD /* Sources */,
 				D07FFF892530E99C004A50AD /* Frameworks */,
@@ -248,14 +248,14 @@
 			dependencies = (
 				D07FFF8E2530E99C004A50AD /* PBXTargetDependency */,
 			);
-			name = "reactive-switft-toyTests";
+			name = "reactive-swift-toyTests";
 			productName = "reactive-switft-toyTests";
-			productReference = D07FFF8C2530E99C004A50AD /* reactive-switft-toyTests.xctest */;
+			productReference = D07FFF8C2530E99C004A50AD /* reactive-swift-toyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D07FFF962530E99C004A50AD /* reactive-switft-toyUITests */ = {
+		D07FFF962530E99C004A50AD /* reactive-swift-toyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D07FFFA62530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-switft-toyUITests" */;
+			buildConfigurationList = D07FFFA62530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-swift-toyUITests" */;
 			buildPhases = (
 				D07FFF932530E99C004A50AD /* Sources */,
 				D07FFF942530E99C004A50AD /* Frameworks */,
@@ -266,9 +266,9 @@
 			dependencies = (
 				D07FFF992530E99C004A50AD /* PBXTargetDependency */,
 			);
-			name = "reactive-switft-toyUITests";
+			name = "reactive-swift-toyUITests";
 			productName = "reactive-switft-toyUITests";
-			productReference = D07FFF972530E99C004A50AD /* reactive-switft-toyUITests.xctest */;
+			productReference = D07FFF972530E99C004A50AD /* reactive-swift-toyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -293,7 +293,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D07FFF762530E999004A50AD /* Build configuration list for PBXProject "reactive-switft-toy" */;
+			buildConfigurationList = D07FFF762530E999004A50AD /* Build configuration list for PBXProject "reactive-swift-toy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -306,9 +306,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D07FFF7A2530E999004A50AD /* reactive-switft-toy */,
-				D07FFF8B2530E99C004A50AD /* reactive-switft-toyTests */,
-				D07FFF962530E99C004A50AD /* reactive-switft-toyUITests */,
+				D07FFF7A2530E999004A50AD /* reactive-swift-toy */,
+				D07FFF8B2530E99C004A50AD /* reactive-swift-toyTests */,
+				D07FFF962530E99C004A50AD /* reactive-swift-toyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -381,12 +381,12 @@
 /* Begin PBXTargetDependency section */
 		D07FFF8E2530E99C004A50AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D07FFF7A2530E999004A50AD /* reactive-switft-toy */;
+			target = D07FFF7A2530E999004A50AD /* reactive-swift-toy */;
 			targetProxy = D07FFF8D2530E99C004A50AD /* PBXContainerItemProxy */;
 		};
 		D07FFF992530E99C004A50AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D07FFF7A2530E999004A50AD /* reactive-switft-toy */;
+			target = D07FFF7A2530E999004A50AD /* reactive-swift-toy */;
 			targetProxy = D07FFF982530E99C004A50AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,15 +514,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"reactive-switft-toy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"reactive-swift-toy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "reactive-switft-toy/Info.plist";
+				INFOPLIST_FILE = "reactive-swift-toy/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.njc.reactive-switft-toy";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.njc.reactive-swift-toy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,15 +535,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"reactive-switft-toy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"reactive-swift-toy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "reactive-switft-toy/Info.plist";
+				INFOPLIST_FILE = "reactive-swift-toy/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.njc.reactive-switft-toy";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.njc.reactive-swift-toy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -567,7 +567,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactive-switft-toy.app/reactive-switft-toy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactive-swift-toy.app/reactive-swift-toy";
 			};
 			name = Debug;
 		};
@@ -588,7 +588,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactive-switft-toy.app/reactive-switft-toy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactive-swift-toy.app/reactive-swift-toy";
 			};
 			name = Release;
 		};
@@ -633,7 +633,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D07FFF762530E999004A50AD /* Build configuration list for PBXProject "reactive-switft-toy" */ = {
+		D07FFF762530E999004A50AD /* Build configuration list for PBXProject "reactive-swift-toy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D07FFF9E2530E99C004A50AD /* Debug */,
@@ -642,7 +642,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D07FFFA02530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-switft-toy" */ = {
+		D07FFFA02530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-swift-toy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D07FFFA12530E99C004A50AD /* Debug */,
@@ -651,7 +651,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D07FFFA32530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-switft-toyTests" */ = {
+		D07FFFA32530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-swift-toyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D07FFFA42530E99C004A50AD /* Debug */,
@@ -660,7 +660,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D07FFFA62530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-switft-toyUITests" */ = {
+		D07FFFA62530E99C004A50AD /* Build configuration list for PBXNativeTarget "reactive-swift-toyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D07FFFA72530E99C004A50AD /* Debug */,
