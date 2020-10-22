@@ -16,6 +16,6 @@ protocol APISession {
 
 extension APISession {
   func createUrl(path: String) -> URL {
-    return URL(string:path, relativeTo: baseUrl)!
+    URL(string: path, relativeTo: baseUrl)!
   }
 }
